@@ -10,7 +10,7 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
-    "configcat-vue-ts": "github:codedbychavez/configcat-vue-ts#polish",
+    "configcat-vue-ts": "github:codedbychavez/configcat-vue-ts#make-client-opts-optional",
     "vue": "^3.3.4"
   },
   "devDependencies": {
