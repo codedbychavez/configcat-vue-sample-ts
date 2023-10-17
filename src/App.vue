@@ -5,6 +5,7 @@
       <FeatureWrapper
         featureKey="myFirstFeatureFlag"
         @flag-value-changed="handleFlagValueChange"
+        :userObject="state.userObject"
       >
         <TheNewFeature />
         <template #else>
